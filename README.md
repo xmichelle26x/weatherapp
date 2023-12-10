@@ -1,16 +1,14 @@
 # weatherapp
 
-A new Flutter project.
+Minimalistic weather application. The frontend will be developed in Flutter/Dart, displaying weather information based on user input. The backend, written in JavaScript, will fetch data from a weather API and relay it to the frontend.
 
-## Getting Started
+Simple User Interface: Design a basic UI where users can input a city name.
+Display Weather Data: Show temperature and general weather conditions (e.g., sunny, cloudy) retrieved from the backend.
+
+## Frontend
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Backend
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Go to backend folder and start with 'node server.js', server will be running on port 3001.
