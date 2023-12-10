@@ -1,12 +1,12 @@
-const express = require('express');
-const { json } = require('express');
-const { get } = require('axios');
-const cors = require('cors');
+import express, { json as _json } from 'express';
+import { json } from 'express';
+import { get } from 'axios';
+import cors from 'cors';
 
 const app = express();
 const port = 3001;
 
-app.use(express.json());
+app.use(_json());
 app.use(cors());
 
 app.get('/weather', async (req, res) => {
