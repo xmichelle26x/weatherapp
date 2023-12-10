@@ -1,4 +1,4 @@
-# weatherapp
+# Weather App
 
 Minimalistic weather application. The frontend will be developed in Flutter/Dart, displaying weather information based on user input. The backend, written in JavaScript, will fetch data from a weather API and relay it to the frontend.
 
