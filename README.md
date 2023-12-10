@@ -6,9 +6,29 @@ Simple User Interface: Design a basic UI where users can input a city name.
 Display Weather Data: Show temperature and general weather conditions (e.g., sunny, cloudy) retrieved from the backend.
 
 ## Frontend
+Flutter Application
+Requirements: Flutter and Dart installed on your machine.
 
-This project is a starting point for a Flutter application.
+### Steps to set up and run the server:
+
+Open a terminal and navigate to the Flutter application directory weatherapp> lib.
+Run the following command to get the project dependencies: 'flutter pub get'
+
+Ensure you have an emulator or a connected device.
+
+Run the Flutter application with the following command: 'flutter run'
+
+This will launch the application on the emulator or connected device.
 
 ## Backend
+API Server (Node.js)
+Requirements: Node.js installed on your machine.
 
-Go to backend folder and start with 'node server.js', server will be running on port 3001.
+### Steps to set up and run the server:
+
+Open a terminal and navigate to the server directory weatherapp> backend.
+Run the following command to install the project dependencies: 'npm install'
+
+Next, start the server with the following command: 'node server.js'
+
+The server will start at http://localhost:3001.
