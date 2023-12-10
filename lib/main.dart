@@ -35,7 +35,7 @@ class _WeatherAppState extends State<WeatherApp> {
   String _cityName = '';
   String _temperature = '';
   String _weatherCondition = '';
-  String _errorMessage = ''; // Nueva variable para mensaje de error
+  String _errorMessage = '';
 
   Future<void> _getWeatherData() async {
     String cityName = _cityController.text;
@@ -50,7 +50,7 @@ class _WeatherAppState extends State<WeatherApp> {
         _temperature = (data['temperature']).toStringAsFixed(2);
         _weatherCondition = data['weatherCondition'];
         _cityName = toBeginningOfSentenceCase(data['cityName']);
-        _errorMessage = ''; // Limpiar el mensaje de error en caso de éxito
+        _errorMessage = '';
       });
 
       // Print the name of the city
@@ -58,6 +58,9 @@ class _WeatherAppState extends State<WeatherApp> {
     } catch (e) {
       setState(() {
         _errorMessage = 'City not found. Please enter a valid city name.';
+         _temperature = '';
+        _weatherCondition = '';
+        _cityName = '';
       });
       print('Error fetching weather data: $e');
     }
