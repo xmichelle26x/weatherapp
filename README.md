@@ -32,3 +32,11 @@ Run the following command to install the project dependencies: `npm install`
 Next, start the server with the following command: `node server.js`
 
 The server will start at http://localhost:3001.
+
+## API Endpoints
+The API exposes a single endpoint for retrieving weather data for a specific city.
+
+Endpoint: /weather
+Method: GET
+Query Parameters:
+city (required): Name of the city for which weather information is desired.
